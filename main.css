@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bosh{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #80808017;
+    padding: 25px;
+}
+
+h1{
+    word-spacing: 10px;
+}
+
+.bosh-img{
+    width: 3%;
+}
+.bosh-ul{    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    font-size: 18px;
+}
+
+.ul{
+    list-style: none;
+}
+
+main{
+    background-color: #80808024;
+}
+
+.container{
+    grid-template-rows: auto;
+    display: grid;
+    padding: 30px 0px;
+    align-items: flex-start;
+}
+.container-img{
+    padding: 0 20px;
+}
+.container-img>img{
+    width: 100%;
+}
+.container-div{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    padding: 0 20px;
+    padding-bottom: 70px;
+}
+.container-title{
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 25px;
+}
+.container-h2{
+    font-size: 40px;
+}
+.container-p{
+    font-size: 21px;
+}
+.container-ul{
+    font-size: 21px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 20px; 
+}
+.container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: self-start;
+    padding-left: 97px;
+    
+}
+
+.input-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 80px;
+    padding-bottom: 30px;
+}
+
+
+.input-label{
+    width: 350px;
+    font-size: 18px;
+    padding: 10px;
+}
+.container-inputt{
+    font-size: 18px;
+    padding: 10px;
+    width: 804px;
+}
+.container-titlel{
+    font-size: 18px;
+    padding: 10px;
+    width: 804px;
+    height: 20vh;
+}
+.container-submitt{
+    padding: 13px;
+    font-weight: 500;
+    border-color: transparent;
+    color: white;
+    background-color: #0eb0a1e3;
+}
+.labl{
+    padding-bottom: 30px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 40px 0px 25px 15px;
+    color: white;
+    background-color: black
+}
+.footer-ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+}
+.footer-div1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.footer-div1>h3{
+    font-size: 30px;
+}
+.footer-div1>dl{
+    font-size: 20px;
+}
+.footer-dl1{
+    font-size: 20px;
+}
+
+
+
+
